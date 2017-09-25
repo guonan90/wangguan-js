@@ -1,0 +1,90 @@
+.sqfw_content {
+  height: 100%;
+  position: relative;
+  .sqfw_message {
+    height: 75%;
+    width: 300px;
+    text-align: center;
+    float: left;
+    overflow: auto;
+    margin-top: 80px;
+    p {
+      background: #ccc;
+      height: 40px;
+      line-height: 40px;
+      font-size: 20px;
+      font-weight: bold;
+      position: absolute;
+      width: 300px;
+      top: 78px;
+      left: 0px;
+    }
+    dd {
+      background: #eee;
+      height: 30px;
+      line-height: 30px;
+      font-size: 14px;
+      cursor: pointer;
+      margin: 0 20px;
+      &:nth-child(2n-1) {
+        background: #fff;
+      }
+    }
+  }
+  .sqfw_list {
+    float: left;
+    margin-left: 15px;
+    ol {
+      width: 750px;
+    }
+    ul {
+      text-align: left;
+      height: 50px;
+      line-height: 50px;
+      width: 750px;
+      border-bottom: 1px solid #eee;
+      color: #555;
+      li {
+        &:nth-child(1) {
+          input {
+            cursor: pointer;
+          }
+        }
+        &:nth-child(5) {
+          span {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  li {
+    overflow: hidden;
+    float: left;
+    &:nth-child(1) {
+      width: 100px;
+      text-align: center;
+    }
+    &:nth-child(2) {
+      width: 200px;
+    }
+    &:nth-child(3) {
+      width: 100px;
+      text-align: center;
+    }
+    &:nth-child(4) {
+      width: 200px;
+      text-align: center;
+    }
+    &:nth-child(5) {
+      width: 150px;
+      text-align: center;
+    }
+  }
+}
+.sqfw_btn {
+  float: left;
+  margin-top: 30px;
+  margin-left: 40px;
+  width: 900px;
+}

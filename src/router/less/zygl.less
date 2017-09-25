@@ -1,0 +1,59 @@
+.zygl_content {
+  height: 100%;
+  .zygl_list {
+    ol {
+      width: 1000px;
+    }
+    ul {
+      text-align: left;
+      height: 50px;
+      line-height: 50px;
+      width: 1000px;
+      border-bottom: 1px solid #eee;
+      color: #555;
+      li {
+        &:nth-child(1) {
+          input {
+            cursor: pointer;
+          }
+        }
+        &:nth-child(3) {
+          span {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  li {
+    overflow: hidden;
+    float: left;
+    text-align: center;
+    &:nth-child(1) {
+      width: 100px;
+    }
+    &:nth-child(2) {
+      width: 300px;
+    }
+    &:nth-child(3) {
+      width: 150px;
+    }
+  }
+  .zygl_popUp {
+    .common_pop_content_menu {
+      h5 {
+        padding-left: 100px;
+        margin-top: 20px;
+      }
+      input {
+        width: 30px;
+      }
+      div {
+        div {
+          display: none;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
